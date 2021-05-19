@@ -1,0 +1,238 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "What's up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me MedCare.", "I'm MedCare!"],
+         "context": [""]
+        },
+        {"tag": "hours",
+         "patterns": ["when are you open", "what are your hours", "hours of operation"],
+         "responses": ["I am open 24 X 7 !"],
+         "context": [""]
+        },
+        {"tag": "common cold",
+         "patterns": ["running nose", "continous sneezing", "sour throat"],
+         "responses": ["Symptoms belong to common cold"],
+         "context": [""]
+        },
+        {"tag": "heart attack",
+         "patterns": ["breathlessness", "chest pain", "dizziness", "pain in chest", "abnormal heartbeat"],
+         "responses": ["Symptoms of Heart Attack"],
+         "context": [""]
+        },
+        {"tag": "food poisoning",
+         "patterns": ["abdomen pain", "vomiting", "heaviness in stomach", "stomachache"],
+         "responses": ["Symptoms of food poisoning"],
+         "context": [""]
+        },
+        {"tag": "viral fever",
+         "patterns": ["fever", "cough", "cold", "sneezing", "Running nose"],
+         "responses": ["Symptoms of viral infection"],
+         "context": [""]
+        },
+        {"tag": "skin problem",
+         "patterns": ["itching of skin", "change in color of skin", "skin color changed", "having rashes", "hives"],
+         "responses": ["Symptoms of skin allergy"],
+         "context": [""]
+        },
+        {"tag": "coronavirus",
+         "patterns": ["high fever", "dry cough", "breathlessness", "cough", "cannot breathe properly", "feeling tired", "body ache"],
+         "responses": ["Symptoms of coronavirus"],
+         "context": [""]
+        },
+        {"tag": "malaria",
+         "patterns": ["chills","high fever","profuse sweating","muscle pain","stomachache","diarrhea","nausea","vomiting"],
+         "responses": ["Symptoms of malaria"],
+         "context": [""]
+        },
+        {"tag": "dengue",
+        "patterns": ["high fever","headache","having rashes","muscle pain", "joint pain","fatigue"],
+        "responses": ["Symptoms of dengue"],
+        "context": [""]
+        },
+        {"tag": "jaundice",
+        "patterns": ["fever","chills","abdominal pain","change in skin colour","dark colored urine","clay colored stool", "stomachache"],
+        "responses": ["Symptoms of jaundice"],
+        "context": [""]
+        },
+        {"tag": "flu",
+        "patterns": ["fever","cough","sore throat","runny or stuffy nose","body ache","fatigue"],
+        "responses": ["Symptoms of flu"],
+        "context": [""]
+        },
+        {"tag": "cataract",
+        "patterns": ["clouded vision","seeing halos around light","eyes sensitive to light","cannot see in dim light", "cannot see in low light"],
+        "responses": ["Symptoms of cataract"],
+        "context": [""]
+        },
+        {"tag": "chickenpox",
+        "patterns": ["blister rashes","red spots","fatigue","fever","loss of apetite", "itchy rashes"],
+        "responses": ["Symptoms of chickenpox"],
+        "context": [""]
+        },
+        {"tag": "arthiritis",
+        "patterns": ["pain","swelling","motion stiffness", "pain while bending"],
+        "responses": ["Symptoms of arthiritis"],
+        "context": [""]
+        },
+        {"tag": "scurvy",
+        "patterns": ["bleeding gums","loose teeth","bulging eyes","wounds","coiled hair","muscle weakness"],
+        "responses": ["Symptoms of scurvy"],
+        "context": [""]
+        },
+        {"tag": "tuberclosis",
+        "patterns": ["coughing blood","chest pain","sudden weight loss","swollen lymph node","fever", "blood in mucus"],
+        "responses": ["Symptoms of tuberculosis"],
+        "context": [""]
+        },
+        {"tag": "embolism",
+        "patterns": ["pain in leg or calf","pain in affected area","warm skin in affected area", "swelling in leg or calf"],
+        "responses": ["Symptoms of embolism"],
+        "context": [""]
+        },
+        {"tag":"diarrhoea",
+         "patterns":["blood in stool","stomach ache","weight loss"],
+         "responses":["symptoms of diarrhoea"],
+         "context":[""]       
+        },
+        {"tag":"diabetes",
+        "patterns":["feeling very thirsty","feeling very tired","weight loss", "muscle loss", "cuts", "wounds"],
+        "responses":["symptoms of diabetes"],
+        "context":[""]
+       },
+       {"tag":"eye cancer",
+        "patterns":["shadows in vision","blurred vision","bulging of one eye", "lines in vision"],
+        "responses":["symptoms of eye cancer"],
+        "context":[""]
+       },
+       {"tag":"insomnia",
+        "patterns":["stress", "anxiety","depression", "schizophrenia"],
+        "responses":["symptoms of insomnia"],
+        "context":[""]
+       },
+       {"tag":"lung cancer",
+        "patterns":["persistent cough","coughing out blood","breathlessness", "blood in mucus"],
+        "responses":["symptoms of lung cancer"],
+        "context":[""]
+       },
+       {"tag":"measles",
+        "patterns":["cold-like symptoms", "runny nose", "sneezing", "cough", "sore and red eyes", "fever"],
+        "responses":["symptoms of measles"],
+        "context":[""]
+       },
+       {"tag":"asthma",
+        "patterns":["house dust mites, sneezing, and a cough","cigarette smoke","viral infections"],
+        "responses":["symptoms of asthma"],
+        "context":[""]
+       },
+       {"tag":"liver cancer",
+        "patterns":["sudden weight loss","loss of appetite","pale coloured skin"],
+        "responses":["symptoms of liver cancer "],
+        "context":[""]
+       },
+       {"tag":"pneumonia",
+        "patterns":["rapid heartbeat","high fever","breathlessness","shortness of breath"],
+        "responses":["symptoms of pneumonia"],
+        "context":[""]
+       },
+       {"tag":"stomach ulcer",
+        "patterns":["indigestion","heartburn","nausea","vomiting"],
+        "responses":["symptoms of stomach ulcer"],
+        "context":[""]
+       },
+       {"tag":"brain tumours",
+        "patterns":["persistent headaches","seizures","fits","nausea","vomiting","drowsiness"],
+        "responses":["symptoms of brain tumours"],
+        "context":[""]
+       },
+        {"tag":"migraine",
+        "patterns":["severe headache","sweating","poor concentration","nausea"],
+        "responses":["symptoms of migraine"],
+        "context":[""]
+       },
+       {"tag":"iron deficiency anaemia",
+        "patterns":["tiredness","lack of energy","shortness of breath","noticeable heartbeats","heart palpitations","lethargy"],
+        "responses":["iron deficiency anaemia"],
+        "context":[""]
+       },
+       {"tag":"irritable bowel syndrome (IBS)",
+        "patterns":["abdominal pain","swelling of stomach","excessive gas","cramps in stomach"],
+        "responses":["symptoms of irritable bowel syndrome (IBS)"],
+        "context":[""]
+       },
+       {"tag":"lupus",
+        "patterns":["fatigue","rashes on face","rashes near hands","joint pain","swelling in joints","feeling tired"],
+        "responses":["symptoms of lupus"],
+        "context":[""]
+       },
+       {"tag":"mumps",
+        "patterns":["headache","joint pain","feeling tired","fatigue"],
+        "responses":["symptoms of mumps"],
+        "context":[""]
+       },
+       {"tag":"cystitis",
+        "patterns":["pain, burning or stinging when you pee","urine that's dark, cloudy or strong smelling"],
+        "responses":["symptoms of cystitis"],
+        "context":[""]
+       },
+       {"tag":"bulimia",
+        "patterns":["depression"," anxiety","isolation", "depressed", "lonely", "anxious"],
+        "responses":["symptoms of bulimia"],
+        "context":[""]
+       },
+       {"tag":"fibroids",
+        "patterns":["heavy periods", "lower back pain","a frequent need to urinate", "frequent urination", "back pain", "increased periods"],
+        "responses":["symptoms of fibroids"],
+        "context":[""]
+       },
+       {"tag":"haemorrhoids",
+        "patterns":["bleeding after passing a stool","itchy bottom","soreness, redness and swelling around your anus","bleeding during stool","bleeding from anus", "redness around anus", "swelling around anus","soreness around anus"],
+        "responses":["symptoms of haemorrhoids"],
+        "context":[""]
+       },
+       {"tag":"meningitis",
+        "patterns":["fever", "a stiff neck","drowsiness","feeling drowsy","headache"],
+        "responses":["symptoms of meningitis"],
+        "context":[""]
+       },
+       {"tag":"lymphoedema",
+        "patterns":["an aching, heavy feeling", "difficulty with movement","repeated skin infections"],
+        "responses":["symptoms of lymphoedema"],
+        "context":[""]
+       },
+       {"tag":"tonsillitis",
+        "patterns":["sore throat and pain when swallowing", "earache","coughing","pain while swallowing","sore throat"],
+        "responses":["symptoms of tonsillitis"],
+        "context":[""]
+       },
+       {"tag":"gastroenteritis",
+        "patterns":["sudden diarrhoea","vomiting","mild fever","fever","watery diarrhoea","diarrhoea"],
+        "responses":["symptoms of gastroenteritis"],
+        "context":[""]
+       },
+       {"tag":"laryngitis",
+        "patterns":["hoarseness","difficulty in speaking","irritating cough","change in voice"],
+        "responses":["symptoms of laryngitis"],
+        "context":[""]
+       },
+       {"tag":"otitis externa",
+        "patterns":["ear pain","itching and irritation in and around your ear canal","hearing loss","itching in ear","irritation in ear"],
+        "responses":["symptoms of otitis externa"],
+        "context":[""]
+       },
+       {"tag":"rosacea",
+        "patterns":["persistent facial redness","visible blood vessels","thickened skin","red face"],
+        "responses":["symptoms  rosacea"],
+        "context":[""]
+       }
+   ]
+}
