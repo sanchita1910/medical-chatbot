@@ -12,4 +12,7 @@ python train_chatbot.py
 #GUI -
 python chatgui.py
 
+#dataset 
+intents.json 
+
 run the project only in virtual environment due to dependencies versions
